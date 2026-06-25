@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Daily Notes Tracker</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-circle circle-1"></div>
+    <div class="bg-circle circle-2"></div>
+
+    <div class="container">
+        <header>
+            <h1>Daily Journal Logs</h1>
+            <p>Write, edit, and keep your daily essential notes safe.</p>
+        </header>
+
+        <!-- Form Section -->
+        <main class="glass-card form-box">
+            <form id="noteForm">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="noteDate">Date</label>
+                        <input type="date" id="noteDate" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="noteText">Your Notes</label>
+                        <textarea id="noteText" placeholder="Start Writing Typing...." rows="3"
+                            required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <span>Save Notes</span>
+                </button>
+            </form>
+        </main>
+
+        <!-- Saved Notes Display Area -->
+        <section class="list-section">
+            <div class="list-header">
+                <h3>Previous Notes</h3>
+
+                <!-- Naya Filter Container -->
+                <div class="filter-container">
+                    <label for="filterDate" class="filter-label">Filter:</label>
+                    <input type="date" id="filterDate" title="Filter by Date">
+                    <button id="clearFilterBtn" class="btn-clear-filter" title="Clear Filter">Clear</button>
+                </div>
+
+                <span id="totalNotes" class="badge">0 Notes</span>
+            </div>
+
+            <div id="notesContainer" class="notes-grid"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
