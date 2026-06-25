@@ -68,5 +68,11 @@ ________________________________________________________________________________
 ****AUTHOR :****
 
 **. Developed by:**  Tanish Kumar
+
+
 **. Role:**  Full-Stack Web Developer
+
+
 **. Project Type:**  Notes Management System
+
+
