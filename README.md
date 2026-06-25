@@ -1,4 +1,4 @@
-/****Brief Description : ****/
+/****Brief Description :****/
 
 Notes Managemnet System is a modern Full-Stack web application designed to help individuals log and track their daily activities, thoughts, and essential tasks. Built with a robust Node.js/Express backend and a dynamic, responsive vanilla JavaScript frontend, it serves as a lightweight personal micro-journaling platform. 
 
