@@ -7,7 +7,7 @@ The app features a stunning visual layout with modern premium elements like tran
 
 
 
-## ✨ Key Features :
+# ✨ Key Features :
 
 
 - Full CRUD Functionality:
@@ -39,7 +39,7 @@ Built with a beautiful dark mode layout featuring dynamic background blur effect
 Follows RESTful principles using Express.js middleware and full CORS support for rapid and secure communication.  
 
 
-## 🛠️ Tech Stack Used :
+# 🛠️ Tech Stack Used :
 
 
 - Frontend:
@@ -63,7 +63,7 @@ cors (Cross-Origin Resource Sharing), fs (Native File System for JSON logging).
 ---
 
 
-### AUTHOR :
+# AUTHOR :
 
 - Developed by:   **Tanish Kumar**
 
