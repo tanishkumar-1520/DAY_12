@@ -60,6 +60,23 @@ Node.js, Express.js.
 cors (Cross-Origin Resource Sharing), fs (Native File System for JSON logging).  
 
 
+# Pacakge Install :
+
+**Firstly intall nodejs**
+
+https://nodejs.org/en/download/current
+
+**Open Terminal :**
+
+- npm init -y
+
+---
+
+- npm install express cors
+
+---
+
+- node server.js
 ---
 
 
